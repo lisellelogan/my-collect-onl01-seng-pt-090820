@@ -5,4 +5,5 @@ def my_collect(array)
     collections << yield(counter)
     counter += 1
   end
+  collections
 end
